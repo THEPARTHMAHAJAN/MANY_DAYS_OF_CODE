@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3505A11428DFAA0400A08521 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3505A11328DFAA0400A08521 /* main.cpp */; };
 		3505A12128DFAA2000A08521 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3505A12028DFAA2000A08521 /* main.cpp */; };
 		3505A12C28DFAB3E00A08521 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3505A12B28DFAB3E00A08521 /* main.cpp */; };
 		3505A13728E022DD00A08521 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3505A13628E022DD00A08521 /* main.cpp */; };
@@ -64,7 +63,6 @@
 
 /* Begin PBXFileReference section */
 		3505A11028DFAA0400A08521 /* CONTEST1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CONTEST1; sourceTree = BUILT_PRODUCTS_DIR; };
-		3505A11328DFAA0400A08521 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3505A11E28DFAA2000A08521 /* A_WINTER_SALE */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = A_WINTER_SALE; sourceTree = BUILT_PRODUCTS_DIR; };
 		3505A12028DFAA2000A08521 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3505A12928DFAB3E00A08521 /* B_MEME_MOMO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = B_MEME_MOMO; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +115,6 @@
 		3505A10728DFAA0400A08521 = {
 			isa = PBXGroup;
 			children = (
-				3505A11228DFAA0400A08521 /* CONTEST1 */,
 				3505A11F28DFAA2000A08521 /* A_WINTER_SALE */,
 				3505A12A28DFAB3E00A08521 /* B_MEME_MOMO */,
 				3505A13528E022DD00A08521 /* C_Next_Alphabet */,
@@ -136,14 +133,6 @@
 				3505A13F28E025A800A08521 /* D_Ali_Baba_Puzzle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3505A11228DFAA0400A08521 /* CONTEST1 */ = {
-			isa = PBXGroup;
-			children = (
-				3505A11328DFAA0400A08521 /* main.cpp */,
-			);
-			path = CONTEST1;
 			sourceTree = "<group>";
 		};
 		3505A11F28DFAA2000A08521 /* A_WINTER_SALE */ = {
@@ -319,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3505A11428DFAA0400A08521 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
