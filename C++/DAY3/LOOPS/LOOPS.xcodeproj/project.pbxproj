@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354F54FF28E373A000FA3240 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 354F54FE28E373A000FA3240 /* main.cpp */; };
+		354F550A28E3740A00FA3240 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 354F550928E3740A00FA3240 /* main.cpp */; };
+		354F551528E3774000FA3240 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 354F551428E3774000FA3240 /* main.cpp */; };
 		355C9E5528E2254B008C6BA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 355C9E5428E2254B008C6BA8 /* main.cpp */; };
 		355C9E6228E22567008C6BA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 355C9E6128E22567008C6BA8 /* main.cpp */; };
 		355C9E6D28E22628008C6BA8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 355C9E6C28E22628008C6BA8 /* main.cpp */; };
@@ -20,6 +23,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		354F54FA28E373A000FA3240 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		354F550528E3740A00FA3240 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		354F551028E3774000FA3240 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		355C9E4F28E2254B008C6BA8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,6 +143,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		354F54FC28E373A000FA3240 /* J. Primes from 1 to n */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "J. Primes from 1 to n"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354F54FE28E373A000FA3240 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		354F550728E3740A00FA3240 /* K. Divisors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "K. Divisors"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354F550928E3740A00FA3240 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		354F551228E3774000FA3240 /* L. GCD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "L. GCD"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354F551428E3774000FA3240 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		355C9E5128E2254B008C6BA8 /* LOOPS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LOOPS; sourceTree = BUILT_PRODUCTS_DIR; };
 		355C9E5428E2254B008C6BA8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		355C9E5F28E22567008C6BA8 /* A. 1 to N */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "A. 1 to N"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +172,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		354F54F928E373A000FA3240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354F550428E3740A00FA3240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354F550F28E3774000FA3240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		355C9E4E28E2254B008C6BA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +266,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354F54FD28E373A000FA3240 /* J. Primes from 1 to n */ = {
+			isa = PBXGroup;
+			children = (
+				354F54FE28E373A000FA3240 /* main.cpp */,
+			);
+			path = "J. Primes from 1 to n";
+			sourceTree = "<group>";
+		};
+		354F550828E3740A00FA3240 /* K. Divisors */ = {
+			isa = PBXGroup;
+			children = (
+				354F550928E3740A00FA3240 /* main.cpp */,
+			);
+			path = "K. Divisors";
+			sourceTree = "<group>";
+		};
+		354F551328E3774000FA3240 /* L. GCD */ = {
+			isa = PBXGroup;
+			children = (
+				354F551428E3774000FA3240 /* main.cpp */,
+			);
+			path = "L. GCD";
+			sourceTree = "<group>";
+		};
 		355C9E4828E2254B008C6BA8 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +303,9 @@
 				35F8CA3F28E2315F00C60DA4 /* G. Factorial */,
 				35F8CA4A28E232A300C60DA4 /* H. One Prime */,
 				35F8CA5528E2363700C60DA4 /* I. Palindrome */,
+				354F54FD28E373A000FA3240 /* J. Primes from 1 to n */,
+				354F550828E3740A00FA3240 /* K. Divisors */,
+				354F551328E3774000FA3240 /* L. GCD */,
 				355C9E5228E2254B008C6BA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -239,6 +323,9 @@
 				35F8CA3E28E2315F00C60DA4 /* G. Factorial */,
 				35F8CA4928E232A300C60DA4 /* H. One Prime */,
 				35F8CA5428E2363700C60DA4 /* I. Palindrome */,
+				354F54FC28E373A000FA3240 /* J. Primes from 1 to n */,
+				354F550728E3740A00FA3240 /* K. Divisors */,
+				354F551228E3774000FA3240 /* L. GCD */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,6 +413,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		354F54FB28E373A000FA3240 /* J. Primes from 1 to n */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354F550228E373A000FA3240 /* Build configuration list for PBXNativeTarget "J. Primes from 1 to n" */;
+			buildPhases = (
+				354F54F828E373A000FA3240 /* Sources */,
+				354F54F928E373A000FA3240 /* Frameworks */,
+				354F54FA28E373A000FA3240 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "J. Primes from 1 to n";
+			productName = "J. Primes from 1 to n";
+			productReference = 354F54FC28E373A000FA3240 /* J. Primes from 1 to n */;
+			productType = "com.apple.product-type.tool";
+		};
+		354F550628E3740A00FA3240 /* K. Divisors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354F550B28E3740A00FA3240 /* Build configuration list for PBXNativeTarget "K. Divisors" */;
+			buildPhases = (
+				354F550328E3740A00FA3240 /* Sources */,
+				354F550428E3740A00FA3240 /* Frameworks */,
+				354F550528E3740A00FA3240 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "K. Divisors";
+			productName = "K. Divisors";
+			productReference = 354F550728E3740A00FA3240 /* K. Divisors */;
+			productType = "com.apple.product-type.tool";
+		};
+		354F551128E3774000FA3240 /* L. GCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354F551628E3774000FA3240 /* Build configuration list for PBXNativeTarget "L. GCD" */;
+			buildPhases = (
+				354F550E28E3774000FA3240 /* Sources */,
+				354F550F28E3774000FA3240 /* Frameworks */,
+				354F551028E3774000FA3240 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L. GCD";
+			productName = "L. GCD";
+			productReference = 354F551228E3774000FA3240 /* L. GCD */;
+			productType = "com.apple.product-type.tool";
+		};
 		355C9E5028E2254B008C6BA8 /* LOOPS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 355C9E5828E2254B008C6BA8 /* Build configuration list for PBXNativeTarget "LOOPS" */;
@@ -506,6 +644,15 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					354F54FB28E373A000FA3240 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					354F550628E3740A00FA3240 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					354F551128E3774000FA3240 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 					355C9E5028E2254B008C6BA8 = {
 						CreatedOnToolsVersion = 14.0;
 					};
@@ -561,11 +708,38 @@
 				35F8CA3D28E2315F00C60DA4 /* G. Factorial */,
 				35F8CA4828E232A300C60DA4 /* H. One Prime */,
 				35F8CA5328E2363600C60DA4 /* I. Palindrome */,
+				354F54FB28E373A000FA3240 /* J. Primes from 1 to n */,
+				354F550628E3740A00FA3240 /* K. Divisors */,
+				354F551128E3774000FA3240 /* L. GCD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		354F54F828E373A000FA3240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354F54FF28E373A000FA3240 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354F550328E3740A00FA3240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354F550A28E3740A00FA3240 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354F550E28E3774000FA3240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354F551528E3774000FA3240 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		355C9E4D28E2254B008C6BA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -649,6 +823,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		354F550028E373A000FA3240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		354F550128E373A000FA3240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		354F550C28E3740A00FA3240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		354F550D28E3740A00FA3240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		354F551728E3774000FA3240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		354F551828E3774000FA3240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		355C9E5628E2254B008C6BA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -921,6 +1143,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		354F550228E373A000FA3240 /* Build configuration list for PBXNativeTarget "J. Primes from 1 to n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354F550028E373A000FA3240 /* Debug */,
+				354F550128E373A000FA3240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354F550B28E3740A00FA3240 /* Build configuration list for PBXNativeTarget "K. Divisors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354F550C28E3740A00FA3240 /* Debug */,
+				354F550D28E3740A00FA3240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354F551628E3774000FA3240 /* Build configuration list for PBXNativeTarget "L. GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354F551728E3774000FA3240 /* Debug */,
+				354F551828E3774000FA3240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		355C9E4C28E2254B008C6BA8 /* Build configuration list for PBXProject "LOOPS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
